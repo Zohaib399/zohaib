@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    
+}
+.container form{
+    background-color: rgb(189, 188, 188);
+    width: 600px;
+    height: 680px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0.0,0.1);
+}
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.container form .row .col{
+    flex: 3;
+
+}
+.container form .row .col .title{
+    text-transform: uppercase;
+
+}
+.container form .row .col .inputbox{
+    margin: 1px 0;
+
+}
+
+.container form .row .col .inputbox img{
+    margin-top: -80px;
+
+}
+.container form .row .col .inputbox span{
+    margin-bottom: 5px;
+    display: block;
+
+}
+.container form .row .col .inputbox input{
+    width: 70%;
+    border: 1px solid #797878;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    border-radius: 5px;
+
+}
+.container form .btn{
+    padding: 7px;
+   margin-top: 10px;
+    background-color: rgb(143, 143, 143);
+    color: #060707;
+    width: 100%;
+    font-size: 20px;
+    transition: 3s ease;
+    cursor: pointer;
+}
+
+.container form .btn:hover{
+    padding: 7px;
+   margin-top: 2px;
+    background-color: rgb(9, 4, 153);
+    color: aliceblue;
+    width: 100%;
+    font-size: 20px;
+}
+
+.container form a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.container form  .back{
+    display: flex;
+    padding: 7px;
+    background-color: rgb(146, 147, 146);
+    color: rgb(7, 7, 7);
+    width: 50%;
+    font-size: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 142px;
+    transition: 3s ease;
+    cursor: pointer;
+    
+}
+.container form  .back:hover{
+    display: flex;
+    padding: 7px;
+    background-color: rgb(1, 3, 1);
+    color: aliceblue;
+    width: 50%;
+    font-size: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 142px;
+    
+}
+
+.container .flex  #country{
+    width: 225px;
+    height: 40px;
+    border: 1px solid #797878;
+    
+}
